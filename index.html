@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lo he hecho — ¿he cerrado con llave? ¿he apagado el fuego?</title>
+<meta name="description" content="Para las dudas de siempre: apunta que has cerrado con llave, apagado los fuegos o desenchufado la plancha, con la hora y una foto si quieres. Gratis, sin cuentas y todo en tu móvil.">
+<link rel="canonical" href="https://adrianezd.github.io/lo-he-hecho/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151a17" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Lo he hecho">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lo he hecho: para dejar de volver a comprobar">
+<meta property="og:description" content="La llave, los fuegos, la plancha: márcalo una vez con la hora y una foto, y respira.">
+<meta property="og:url" content="https://adrianezd.github.io/lo-he-hecho/">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+<!-- seo -->
+<meta name="keywords" content="he cerrado la puerta, toc comprobar, checklist salir de casa, he apagado el fuego, ansiedad comprobar, lista antes de salir">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="adrianezd">
+<meta property="og:site_name" content="Lo he hecho: ¿he cerrado con llave?">
+<meta property="og:image" content="https://adrianezd.github.io/lo-he-hecho/favicon.svg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lo he hecho: ¿he cerrado con llave?">
+<meta name="twitter:description" content="Lista para las dudas de siempre: marca que has cerrado con llave, apagado los fuegos o desenchufado la plancha, con la hora y una foto de prueba.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Lo he hecho: ¿he cerrado con llave?","url":"https://adrianezd.github.io/lo-he-hecho/","description":"Lista para las dudas de siempre: marca que has cerrado con llave, apagado los fuegos o desenchufado la plancha, con la hora y una foto de prueba.","inLanguage":"es","applicationCategory":"LifestyleApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"author":{"@type":"Person","name":"adrianezd"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Para qué sirve?","acceptedAnswer":{"@type":"Answer","text":"Para dejar de volver a comprobar. Marcas cada cosa al hacerla y, si luego te entra la duda, ves la hora exacta y la foto."}},{"@type":"Question","name":"¿Por qué hay que mantener pulsado?","acceptedAnswer":{"@type":"Answer","text":"Un gesto consciente se recuerda mejor que un toque automático. Si lo prefieres, puedes cambiarlo a un toque en Editar."}},{"@type":"Question","name":"¿Dónde se guardan mis marcas y fotos?","acceptedAnswer":{"@type":"Answer","text":"Solo en tu móvil. No hay cuentas ni servidores."}}]}]}</script>
+<!-- /seo -->
+</head>
+<body>
+<header class="top">
+  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12.5l4 4 8-9"/></svg></span>
+  <div>
+    <h1>Lo he hecho</h1>
+    <p class="sub">Compruébalo una vez y olvídate</p>
+  </div>
+</header>
+
+<main id="vista" aria-live="polite"></main>
+
+<nav class="tabs" aria-label="Secciones">
+  <button data-acc="vista" data-val="hoy"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="3"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span>Comprobar</span></button>
+  <button data-acc="vista" data-val="historial"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span>Historial</span></button>
+  <button data-acc="vista" data-val="editar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16v4zM13.5 6.5l4 4"/></svg><span>Editar</span></button>
+</nav>
+
+<div id="velo" hidden><div id="hoja" role="dialog" aria-modal="true"></div></div>
+<div id="aviso" role="status" hidden></div>
+<input id="f-foto" type="file" accept="image/*" capture="environment" hidden>
+
+<footer>Hecho por <a href="https://adrianezd.github.io/portal/">adrianezd</a>. Todo se guarda solo en tu móvil.</footer>
+<!-- red -->
+<section class="seo-faq" style="max-width:760px;margin:0 auto;padding:8px 16px;font-size:.92rem;opacity:.85"><h2 style="font-size:1rem">Preguntas frecuentes</h2><details><summary>¿Para qué sirve?</summary><p>Para dejar de volver a comprobar. Marcas cada cosa al hacerla y, si luego te entra la duda, ves la hora exacta y la foto.</p></details><details><summary>¿Por qué hay que mantener pulsado?</summary><p>Un gesto consciente se recuerda mejor que un toque automático. Si lo prefieres, puedes cambiarlo a un toque en Editar.</p></details><details><summary>¿Dónde se guardan mis marcas y fotos?</summary><p>Solo en tu móvil. No hay cuentas ni servidores.</p></details></section>
+<nav class="seo-red" style="max-width:760px;margin:0 auto;padding:8px 16px 28px;font-size:.85rem;opacity:.75;text-align:center">Más webs gratis: <a href="https://adrianezd.github.io/precio-luz-hoy/">Precio de la luz</a> · <a href="https://adrianezd.github.io/sueldo-neto/">Sueldo neto</a> · <a href="https://adrianezd.github.io/la-previa/">La Previa</a> · <a href="https://adrianezd.github.io/brisca-maldita/">Brisca Maldita</a> · <a href="https://adrianezd.github.io/embalses-hoy/">Embalses hoy</a> · <a href="https://adrianezd.github.io/calendario-laboral/">Calendario laboral</a> · <a href="https://adrianezd.github.io/alquilar-o-comprar/">Alquilar o comprar</a> · <a href="https://adrianezd.github.io/coste-viaje/">Coste del viaje</a> · <a href="https://adrianezd.github.io/pueblodle/">Pueblodle</a> · <a href="https://adrianezd.github.io/grid-laliga/">Grid LaLiga</a> · <a href="https://adrianezd.github.io/quien-lo-dijo/">Quién lo dijo</a> · <a href="https://adrianezd.github.io/el-mentiroso/">El Mentiroso</a> · <a href="https://adrianezd.github.io/tute/">Tute</a> · <a href="https://adrianezd.github.io/bar-de-pueblo/">Bar de Pueblo</a> · <a href="https://adrianezd.github.io/tiempo-de-pantalla/">Tiempo de pantalla</a> · <a href="https://adrianezd.github.io/mi-musica/">Tu música en datos</a> · <a href="https://adrianezd.github.io/mi-armario/">Mi armario</a> · <a href="https://adrianezd.github.io/lo-he-hecho/">Lo he hecho</a></nav>
+<!-- /red -->
+<script src="script.js?v=1"></script>
+</body>
+</html>

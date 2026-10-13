@@ -1,0 +1,12 @@
+{
+  "name": "Lo he hecho",
+  "short_name": "Lo he hecho",
+  "description": "Apunta que has cerrado la puerta con llave, apagado los fuegos o cualquier cosa que te haga dudar, con la hora y una foto si quieres.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f0e8",
+  "theme_color": "#f3f0e8",
+  "lang": "es",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
